@@ -54,7 +54,6 @@ const home: Home = {
     display: true,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
           Featured work
@@ -65,7 +64,7 @@ const home: Home = {
   },
   subline: (
     <>
-      Salaams, it's Sumayyah, <br />  a junior developer and creative designer
+      Salaams, it's Sumayyah, a junior developer and creative designer
       based in sunny singapore.
     </>
   ),
@@ -213,14 +212,7 @@ const about: About = {
           },
         ],
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },  
     ],
   },
